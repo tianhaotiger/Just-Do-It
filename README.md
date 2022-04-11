@@ -1,17 +1,34 @@
 # Just Do It
  
-Next thing to do:
-1. change the routes to RESTful
-2. beautify the front end
 
-Instructions:
- 
-- Build a basic flask web app that serves the purpose of a to-do list.
-- You should be able to add tasks, that would be displayed on the page
-- Remove or complete them with a checkbox that would remove them from the page
-- Each task should have two fields, a title and a deadline
+# Features overview of the product:
+1. Add / edit / remove a todo task, with a title and a DDL.
+2. After added, all task will be sorted by DDL in ascending order, finish the nearest DDL first!
+3. Each task has three status: todo, in progress, and complete. You can click the button to simply change and see the status. After 'complete' status, another click will automatically delete the task. Either leave the task with pride, or delete it instantly, your choice!
 
-Optional to stand out:
-- Make the tasks ordered by deadline
-- Add the option to edit a task title or deadline
-- Other small functionalities that you believe could help (resetting everything or others)
+# Instruction of usage:
+1. Installation:
+- If you have installed git, you can clone the project with typing the following code in terminal(Windows) or terminal(Mac) git clone 'https://github.com/tianhaotiger/Just-Do-It.git'
+- If you don't have git command, you can download the zip file and unzip in the folder where you wish to install it.
+- ![1649661164(1)](https://user-images.githubusercontent.com/62366288/162684011-8d4c1c4b-10f9-4618-99f3-e3b35bb289f8.png)
+- After you finish, open the project with an IDE(PyCharm, VSCode, etc), or you can use the terminal to open the folder, and remember to run 'pip install requirements.txt' in the parent folder.
+
+2. Quickstart:
+- After installation, run 'flask run' in your terminal, then goto the 'http://127.0.0.1:5000/create-task' to see the page of todo list.
+- ![1649661830(1)](https://user-images.githubusercontent.com/62366288/162685642-db6a8aef-ccfa-451e-8a2d-697457004ef1.png)
+Add / edit / remove the task with the three icon showed in the picture.
+
+![1649661883(1)](https://user-images.githubusercontent.com/62366288/162685788-fe7ca5c1-7d89-4e14-b1e6-bee48c0ceaea.png)
+Fill in the task title, and a DDL, then your task is created!
+
+![1649661946(1)](https://user-images.githubusercontent.com/62366288/162685962-70860fef-bbac-472e-8807-07aec286fbcc.png)
+When you want to change a title or ddl of a certain task, click the edit button, and change the task. Remeber: you have to input the task ID as the arrow pointed to change the right task!
+
+![1649662037(1)](https://user-images.githubusercontent.com/62366288/162686190-d5e370bf-2de9-46f0-94a2-ce7f74e19dfd.png)
+The DDL is sorted with ascending DDL order. And you can click the status button to change the task status from ToDo, In process, and Complete. After Complete, another click will delete the task!
+
+3. Future Plan:
+- Sort by status and ddl
+- Let edit can be done with typing ID
+- Have a button to filter all todo, in progress, complete task
+- Have a button to stick a certain task to the top, show priority.
