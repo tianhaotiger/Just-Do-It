@@ -19,13 +19,17 @@
 Add / edit / remove the task with the three icon showed in the picture.
 
 ![1649661883(1)](https://user-images.githubusercontent.com/62366288/162685788-fe7ca5c1-7d89-4e14-b1e6-bee48c0ceaea.png)
-Fill in the task title, and a DDL, then your task is created!
+
+- Fill in the task title, and a DDL, then your task is created!
 
 ![1649661946(1)](https://user-images.githubusercontent.com/62366288/162685962-70860fef-bbac-472e-8807-07aec286fbcc.png)
-When you want to change a title or ddl of a certain task, click the edit button, and change the task. Remeber: you have to input the task ID as the arrow pointed to change the right task!
+
+- When you want to change a title or ddl of a certain task, click the edit button, and change the task. Remeber: you have to input the task ID as the arrow pointed to change the right task!
 
 ![1649662037(1)](https://user-images.githubusercontent.com/62366288/162686190-d5e370bf-2de9-46f0-94a2-ce7f74e19dfd.png)
-The DDL is sorted with ascending DDL order. And you can click the status button to change the task status from ToDo, In process, and Complete. After Complete, another click will delete the task!
+
+- The DDL is sorted with ascending DDL order. And you can click the status button to change the task status from ToDo, In process, and Complete. After Complete, another click will delete the task!
+
 
 3. Future Plan:
 - Sort by status and ddl
