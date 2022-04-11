@@ -11,7 +11,7 @@
 - If you have installed git, you can clone the project with typing the following code in terminal(Windows) or terminal(Mac) git clone https://github.com/tianhaotiger/Just-Do-It.git
 - If you don't have git command, you can download the zip file and unzip in the folder where you wish to install it.
 - ![1649661164(1)](https://user-images.githubusercontent.com/62366288/162684011-8d4c1c4b-10f9-4618-99f3-e3b35bb289f8.png)
-- After you finish, open the project with an IDE(PyCharm, VSCode, etc), or you can use the terminal to open the folder, and remember to run 'pip install requirements.txt' in the parent folder.
+- After you finish, open the project with an IDE(PyCharm, VSCode, etc), or you can use the terminal to open the folder, and remember to run 'pip install requirements.txt' in the parent folder. (If you encounter gbk codec error, refer to this blog:https://github.com/google/tangent/pull/9 .)
 
 2. Quickstart:
 - After installation, run 'flask run' in your terminal, then goto the 'http://127.0.0.1:5000/create-task' to see the page of todo list.
