@@ -8,7 +8,7 @@
 
 # Instruction of usage:
 1. Installation:
-- If you have installed git, you can clone the project with typing the following code in terminal(Windows) or terminal(Mac) git clone 'https://github.com/tianhaotiger/Just-Do-It.git'
+- If you have installed git, you can clone the project with typing the following code in terminal(Windows) or terminal(Mac) git clone https://github.com/tianhaotiger/Just-Do-It.git
 - If you don't have git command, you can download the zip file and unzip in the folder where you wish to install it.
 - ![1649661164(1)](https://user-images.githubusercontent.com/62366288/162684011-8d4c1c4b-10f9-4618-99f3-e3b35bb289f8.png)
 - After you finish, open the project with an IDE(PyCharm, VSCode, etc), or you can use the terminal to open the folder, and remember to run 'pip install requirements.txt' in the parent folder.
